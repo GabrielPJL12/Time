@@ -4,9 +4,9 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import SignUp from './src/screens/SignUp';
-import WeekCalendar from './src/screens/WeekCalendar';
-import DailySchedule from './src/screens/DailySchedule';
+import SignUp from './screens/SignUp';
+import WeekCalendar from './screens/WeekCalendar';
+import DailySchedule from './screens/DailySchedule';
 
 const Stack = createNativeStackNavigator();
 
