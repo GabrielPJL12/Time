@@ -1,27 +1,17 @@
 {
     "user_accounts": [
-        {
-            "email": "employee1@gmail.com",
-            "password": "employee1",
-            "first_name": "Cyril",
-            "last_name": "Dizon"
-        },
-        {
-            "email": "employee2@gmail.com",
-            "password": "employee2",
-            "first_name": "Gabriel",
-            "last_name": "Leclerc"
-        }
+        { "email": "employee1@gmail.com", "password": "employee1", "first_name": "Cyril", "last_name": "Dizon" },
+        { "email": "employee2@gmail.com", "password": "employee2", "first_name": "Gabriel", "last_name": "Leclerc" }
     ],
 
     "days_of_week": [
         { "year": 2021, "month": 10, "day": 10, "events": ["event1", "event2"] },
-        { "year": 2021, "month": 10, "day": 10, "events": ["event3", "event4"] },
-        { "year": 2021, "month": 10, "day": 10, "events": ["event5", "event6"] },
-        { "year": 2021, "month": 10, "day": 10, "events": ["event7", "event8"] },
-        { "year": 2021, "month": 10, "day": 10, "events": ["event9", "event10"] },
-        { "year": 2021, "month": 10, "day": 10, "events": ["event11", "event12"] },
-        { "year": 2021, "month": 10, "day": 10, "events": ["event13", "event14"] }
+        { "year": 2021, "month": 10, "day": 11, "events": ["event3", "event4"] },
+        { "year": 2021, "month": 10, "day": 12, "events": ["event5", "event6"] },
+        { "year": 2021, "month": 10, "day": 13, "events": ["event7", "event8"] },
+        { "year": 2021, "month": 10, "day": 14, "events": ["event9", "event10"] },
+        { "year": 2021, "month": 10, "day": 15, "events": ["event11", "event12"] },
+        { "year": 2021, "month": 10, "day": 16, "events": ["event13", "event14"] }
     ],
 
     "tasks": [
