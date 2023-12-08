@@ -1,0 +1,39 @@
+{
+    "user_accounts": [
+        {
+            "email": "employee1@gmail.com",
+            "password": "employee1",
+            "first_name": "Cyril",
+            "last_name": "Dizon"
+        },
+        {
+            "email": "employee2@gmail.com",
+            "password": "employee2",
+            "first_name": "Gabriel",
+            "last_name": "Leclerc"
+        }
+    ],
+
+    "days_of_week": [
+        { "year": 2021, "month": 10, "day": 10, "events": ["event1", "event2"] },
+        { "year": 2021, "month": 10, "day": 10, "events": ["event3", "event4"] },
+        { "year": 2021, "month": 10, "day": 10, "events": ["event5", "event6"] },
+        { "year": 2021, "month": 10, "day": 10, "events": ["event7", "event8"] },
+        { "year": 2021, "month": 10, "day": 10, "events": ["event9", "event10"] },
+        { "year": 2021, "month": 10, "day": 10, "events": ["event11", "event12"] },
+        { "year": 2021, "month": 10, "day": 10, "events": ["event13", "event14"] }
+    ],
+
+    "tasks": [
+        { "id": 1, "name": "Task 1", "completionTime": "11:00am", "completed": false },
+        { "id": 2, "name": "Task 2", "completionTime": "12:15pm", "completed": false },
+        { "id": 3, "name": "Task 3", "completionTime": "1:30pm", "completed": false },
+        { "id": 4, "name": "Task 4", "completionTime": "2:45pm", "completed": false },
+        { "id": 5, "name": "Task 5", "completionTime": "4:00pm", "completed": false },
+        { "id": 6, "name": "Task 6", "completionTime": "5:15pm", "completed": false },
+        { "id": 7, "name": "Task 7", "completionTime": "6:30pm", "completed": false },
+        { "id": 8, "name": "Task 8", "completionTime": "7:45pm", "completed": false },
+        { "id": 9, "name": "Task 9", "completionTime": "9:00pm", "completed": false },
+        { "id": 10, "name": "Task 10", "completionTime": "10:15pm", "completed": false }
+    ]
+}

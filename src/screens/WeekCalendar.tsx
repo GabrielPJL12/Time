@@ -1,5 +1,6 @@
 import React from "react";
 import { Text, View, Pressable, StyleSheet } from "react-native";
+import database from '../database/database.json'
 
 type CalendarDay = {
     year: number;
@@ -10,15 +11,7 @@ type CalendarDay = {
 
 function WeekCalendar({ navigation }: any): JSX.Element {
     // assuming you have a function that generates the days and events for the current week
-    const daysOfWeek: CalendarDay[] = [
-        { year: 2021, month: 10, day: 10, events: ["event1", "event2"] },
-        { year: 2021, month: 10, day: 11, events: ["event3", "event4"] },
-        { year: 2021, month: 10, day: 12, events: ["event5", "event6"] },
-        { year: 2021, month: 10, day: 13, events: ["event7", "event8"] },
-        { year: 2021, month: 10, day: 14, events: ["event9", "event10"] },
-        { year: 2021, month: 10, day: 15, events: ["event11", "event12"] },
-        { year: 2021, month: 10, day: 16, events: ["event13", "event14"] },
-    ];
+    const daysOfWeek: CalendarDay[] = database.days_of_week;
 
     return (
         <View>

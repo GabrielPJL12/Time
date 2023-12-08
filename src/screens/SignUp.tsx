@@ -1,5 +1,6 @@
 import React from "react";
 import { Pressable, Text, TextInput, View } from "react-native";
+import database from '../database/database.json'
 
 type SignUpFormData = {
     email: string;
